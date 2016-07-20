@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: "微软雅黑", "Microsoft YaHei";
+}
+.clearfix:after {
+    content: ' ';
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.header {
+
+}
+.header img {
+    vertical-align: top;
+}
+.container {
+    margin: 0 40px;
+}
+.title {
+    height: 85px;
+    padding-left: 80px;
+    border-bottom: 5px solid #f1faff;
+    background: url(../img/icon_userinfo.png) left top transparent no-repeat;
+    line-height: 1;
+}
+.title .title-cn {
+    float: left;
+    font-size: 34px;
+    color: #058b98;
+    margin-top: 14px;
+}
+.title .title-en {
+    float: left;
+    font-size: 18px;
+    color: #9d9d9d;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

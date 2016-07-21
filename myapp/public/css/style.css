@@ -101,3 +101,150 @@
     line-height: 1;
     color: #5d5d5d;
 }
+
+/* 近期活动页面样式 */
+.recent-activities {
+
+}
+.recent-activities .activity-list {
+    margin-bottom: 10px;
+}
+.recent-activities .activity-item {
+    padding-top: 42px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f1faff;
+    text-align: center;
+    font-size: 24px;
+    color: #5d5d5d;
+}
+
+.recent-activities .activity-item .subject {
+    position: relative;
+    width: 196px;
+    height: 58px;
+    background-color: #addce1;
+    font-size: 30px;
+    color: #fff;
+    line-height: 58px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+.recent-activities .activity-item .subject:after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 10px;
+    top: 10px;
+    background-color: #e0f3fb;
+    z-index: -1;
+}
+.recent-activities .activity-item .clearfix {
+    margin-right: -5px;
+}
+.recent-activities .activity-item .date,
+.recent-activities .activity-item .time,
+.recent-activities .activity-item .address {
+    float: left;
+    height: 76px;
+    width: 210px;
+    margin-right: 5px;
+    background-color: #f5fcff;
+    line-height: 76px;
+}
+
+/* 活动报名页面样式 */
+.activity-detail {
+    margin-bottom: 10px;
+}
+.activity-detail .article .subject {
+    font-size: 36px;
+    color: #000000;
+    line-height: 1;
+    margin-top: 70px;
+}
+.activity-detail .article .info {
+    margin-top: 40px;
+    font-size: 28px;
+}
+.activity-detail .article .info .date {
+    color: #9b9b9b;
+    margin-right: 10px;
+}
+.activity-detail .article .info .author {
+    color: #8f95ab;
+}
+.activity-detail .article .content {
+    margin-top: 60px;
+}
+.activity-detail .article .content p {
+    font-size: 28px;
+    line-height: 72px;
+    color: #5d5d5d;
+    margin-top: 5px;
+}
+.activity-detail .attend-wrapper {
+    margin-top: 30px;
+}
+.activity-detail .attend-wrapper .hint {
+    font-size: 30px;
+    color: #058b98;
+    line-height: 1;
+}
+.activity-detail .attend-wrapper .radio-wrapper {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #5d5d5d;
+    line-height: 1.5;
+}
+.activity-detail .btn-wrapper {
+    margin-top: 34px;
+    width: 100%;
+    text-align: center;
+}
+.activity-detail .btn-wrapper .button {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 90px;
+    background-color: #058b98;
+    line-height: 90px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+.radio-custom input[type="radio"] {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.radio-custom label {
+    display: inline-block;
+    padding-left: 34px;
+    height: 42px;
+    position: relative;
+}
+.radio-custom label:before{
+    position: absolute;
+    content: ' ';
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 7px;
+    border: 2px solid #e6e6e6;
+    border-radius: 50%;
+}
+.radio-custom input[type="radio"]:checked + label:after {
+    position: absolute;
+    content: ' ';
+    overflow: hidden;
+    width: 18px;
+    height: 18px;
+    left: 5px;
+    top: 12px;
+    background-color: #f67a00;
+    border-radius: 50%;
+}

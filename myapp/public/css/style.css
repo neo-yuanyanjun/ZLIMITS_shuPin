@@ -248,3 +248,308 @@
     background-color: #f67a00;
     border-radius: 50%;
 }
+.activity-detail .attend-wrapper .gold {
+    color: #f67a00;
+}
+.activity-detail .attend-wrapper .button.disabled {
+    background-color: #b3b3b3;
+}
+
+/* 活动付款页面样式 */
+.activity-pay .row {
+    height: 90px;
+    margin-right: -6px;
+}
+.activity-pay .fee-detail {
+    margin-top: 10px;
+}
+.activity-pay .row .column {
+    float: left;
+    width: 317px;
+    margin-right: 6px;
+    margin-top: 6px;
+    height: 100%;
+    background-color: #f5fcff;
+    font-size: 26px;
+    color: #5d5d5d;
+    line-height: 90px;
+    text-align: center;
+}
+.activity-pay .btn-wrapper {
+    text-align: center;
+    margin-top: 255px;
+}
+.activity-pay .btn-wrapper .btn {
+    vertical-align: center;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #058b98;
+    border-radius: 6px;
+}
+
+/* 会费缴纳情况页面样式 */
+.dues-list .custom-table {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.dues-list .custom-table .row {
+    margin-top: 5px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    color: #5d5d5d;
+    text-align: center;
+    margin-right: -5px;
+}
+.dues-list .custom-table .row:after {
+    content: ' ';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+.dues-list .custom-table .row .column {
+    float: left;
+    margin-right: 5px;
+    height: 100%;
+    background-color: #f5fcff;
+}
+.dues-list .custom-table .row .column.num {
+    width: 110px;
+}
+.dues-list .custom-table .row .column.year {
+    width: 150px;
+}
+.dues-list .custom-table .row .column.status {
+    width: 150px;
+}
+.dues-list .custom-table .row .column.date {
+    width: 215px;
+}
+.dues-list .btn-wrapper {
+    margin-top: 64px;
+    text-align: center;
+}
+.dues-list .btn-wrapper .btn {
+    height: 90px;
+    line-height: 90px;
+    background-color: #058b98;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* 缴纳会费页面样式 */
+.dues-pay .custom-table {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.dues-pay .custom-table .row {
+    margin-top: 5px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    color: #5d5d5d;
+    text-align: center;
+    margin-right: -5px;
+}
+.dues-pay .custom-table .row:after {
+    content: ' ';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+.dues-pay .custom-table .row .column {
+    float: left;
+    margin-right: 5px;
+    height: 100%;
+    background-color: #f5fcff;
+}
+.dues-pay .custom-table .row .column.first-column {
+    width: 190px;
+}
+.dues-pay .custom-table .row .column.second-column {
+    width: 395px;
+    text-align: left;
+    padding-left: 50px;
+}
+.dues-pay .btn-wrapper {
+    margin-top: 64px;
+    text-align: center;
+}
+.dues-pay .btn-wrapper .btn {
+    height: 90px;
+    line-height: 90px;
+    background-color: #058b98;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* 我的捐款页面样式 */
+.donation-list .table-wrapper {
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 26px;
+    color: #5d5d5d;
+    text-align: center;
+}
+.donation-list .table-wrapper tr th,
+.donation-list .table-wrapper tr td {
+    padding: 27px 0;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+    background-color: #f5fcff;
+    width: 175px;
+}
+.donation-list .table-wrapper tr .first {
+    width: 100px;
+}
+.donation-list .btn-wrapper {
+    margin-top: 64px;
+    text-align: center;
+}
+.donation-list .btn-wrapper .btn {
+    height: 90px;
+    line-height: 90px;
+    background-color: #058b98;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* 捐款单付款页面 */
+.donation-pay .custom-table {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.donation-pay .custom-table .row {
+    margin-top: 5px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 30px;
+    color: #5d5d5d;
+    text-align: center;
+    margin-right: -5px;
+}
+.donation-pay .custom-table .row:after {
+    content: ' ';
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+.donation-pay .custom-table .row .column {
+    float: left;
+    margin-right: 5px;
+    height: 100%;
+    background-color: #f5fcff;
+}
+.donation-pay .custom-table .row .column.first {
+    width: 190px;
+}
+.donation-pay .custom-table .row .column.second {
+    width: 395px;
+    padding-left: 50px;
+    text-align: left;
+}
+.donation-pay .custom-table input.amount {
+    border: 0;
+    border: none;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 15px 0;
+    margin: 0;
+    background-color: #f5fcff;
+    width: 100%;
+}
+.donation-pay .btn-wrapper {
+    margin-top: 64px;
+    text-align: center;
+}
+.donation-pay .btn-wrapper .btn {
+    height: 90px;
+    line-height: 90px;
+    background-color: #058b98;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* 叔蘋捐款页面样式 */
+.donations .title {
+    position: relative;
+}
+.donations .title .my-donation {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    height: 52px;
+    width: 130px;
+    font-size: 26px;
+    line-height: 52px;
+    background-color: #058b98;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.donations .donation-project {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f5fbff;
+    text-align: center;
+}
+.donations .donation-project .subject {
+    text-align: center;
+}
+.donations .donation-project .subject span {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 30px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #addce1;
+    position: relative;
+}
+.donations .donation-project .subject span:after{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: ' ';
+    background-color: #e0f3fb;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+.donations .donation-project .date {
+    width: 100%;
+    text-align: center;
+    height: 76px;
+    line-height: 76px;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #5d5d5d;
+    background-color: #f5fcff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

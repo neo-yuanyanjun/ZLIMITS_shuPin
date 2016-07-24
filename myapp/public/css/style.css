@@ -539,6 +539,326 @@
     background-color: #f5fcff;
 }
 
+/* 投票列表页面样式 */
+.voting-list .voting-items .voting-item {
+    padding-top: 42px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f5fbff;
+}
+.voting-list .voting-items .voting-item .subject {
+    text-align: center;
+}
+.voting-list .voting-items .voting-item .subject span {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 60px;
+    background-color: #addce1;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+}
+.voting-list .voting-items .voting-item .subject span:after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+    background-color: #e0f3fb;
+}
+.voting-list .voting-items .voting-item .action-bar {
+    margin-top: 28px;
+    background-color: #f5fcff;
+    font-size: 24px;
+    height: 76px;
+    line-height: 76px;
+    padding-left: 28px;
+    color: #5d5d5d;
+}
+.voting-list .voting-items .voting-item .action-bar .gold {
+    color: #f67a00;
+}
+.voting-list .voting-items .voting-item .action-bar .link {
+    float: right;
+    margin-right: 20px;
+    margin-top: 28px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0 20px;
+    background-color: #058b98;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+/* 投票页面样式 */
+.voting-main .voting-subject {
+    margin-top: 72px;
+    font-size: 32px;
+    color: #000;
+}
+.voting-main .voting-info {
+    font-size: 28px;
+    line-height: 1;
+    color: #9b9b9b;
+    margin-top: 43px;
+}
+.voting-main .voting-info span {
+    color: #8f95ab;
+}
+.voting-main .voting-icon {
+    height: 78px;
+    margin: 32px 0 34px 0;
+    background: url(../img/icon-voting.png) no-repeat left center transparent;
+}
+.voting-main .voting-details {
+    line-height: 72px;
+}
+.voting-main .voting-question {
+    font-size: 32px;
+    color: #058b98;
+}
+
+/* 投票结果查看页面样式 */
+.voting-result .voting-subject {
+    margin-top: 72px;
+    font-size: 32px;
+    color: #000;
+}
+.voting-result .voting-info {
+    font-size: 28px;
+    line-height: 1;
+    color: #9b9b9b;
+    margin-top: 43px;
+}
+.voting-result .voting-info span {
+    color: #8f95ab;
+}
+.voting-result .voting-icon {
+    height: 78px;
+    margin: 32px 0 34px 0;
+    background: url(../img/icon-voting.png) no-repeat left center transparent;
+}
+
+.voting-result .voting-question {
+    font-size: 32px;
+    color: #058b98;
+}
+.voting-result .chart-panel {
+    margin-top: 60px;
+}
+
+/* 问卷调查列表页面样式 */
+.questionnaire-list .questionnaire-items .questionnaire-item {
+    padding-top: 42px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f5fbff;
+}
+.questionnaire-list .questionnaire-items .questionnaire-item .subject {
+    text-align: center;
+}
+.questionnaire-list .questionnaire-items .questionnaire-item .subject span {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 60px;
+    background-color: #addce1;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+}
+.questionnaire-list .questionnaire-items .questionnaire-item .subject span:after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+    background-color: #e0f3fb;
+}
+.questionnaire-list .questionnaire-items .questionnaire-item .action-bar {
+    margin-top: 28px;
+    background-color: #f5fcff;
+    font-size: 24px;
+    height: 76px;
+    line-height: 76px;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+
+/* 问卷调查详细页面样式 */
+.questionnaire-main {
+    margin-bottom: 10px;
+}
+.questionnaire-main .questionnaire-subject {
+    margin-top: 72px;
+    font-size: 32px;
+    color: #000;
+}
+.questionnaire-main .questionnaire-info {
+    font-size: 28px;
+    line-height: 1;
+    color: #9b9b9b;
+    margin-top: 43px;
+}
+.questionnaire-main .questionnaire-info span {
+    color: #8f95ab;
+}
+.questionnaire-main .questionnaire-icon {
+    height: 78px;
+    margin: 32px 0 34px 0;
+    background: url(../img/icon-questionnaire.png) no-repeat left center transparent;
+}
+.questionnaire-main .questionnaire-details {
+    line-height: 72px;
+}
+.questionnaire-main .questionnaire-question {
+    font-size: 32px;
+    color: #058b98;
+}
+
+/* 问卷调查结果页面样式 */
+.questionnaire-result {
+    margin-bottom: 10px;
+}
+.questionnaire-result .questionnaire-subject {
+    margin-top: 72px;
+    font-size: 32px;
+    color: #000;
+}
+.questionnaire-result .questionnaire-info {
+    font-size: 28px;
+    line-height: 1;
+    color: #9b9b9b;
+    margin-top: 43px;
+}
+.questionnaire-result .questionnaire-info span {
+    color: #8f95ab;
+}
+.questionnaire-result .questionnaire-icon {
+    height: 78px;
+    margin: 32px 0 34px 0;
+    background: url(../img/icon-questionnaire.png) no-repeat left center transparent;
+}
+.questionnaire-result .questionnaire-details {
+    line-height: 72px;
+}
+.questionnaire-result .questionnaire-question {
+    font-size: 32px;
+    color: #058b98;
+}
+
+/* 摇一摇签到 */
+.shake-check-in {
+
+}
+.shake-check-in .project {
+    padding-top: 42px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f5fbff;
+}
+.shake-check-in .project .subject {
+    text-align: center;
+}
+.shake-check-in .project .subject span {
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 60px;
+    background-color: #addce1;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+}
+.shake-check-in .project span:after {
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: -1;
+    background-color: #e0f3fb;
+}
+.shake-check-in .project .action-bar {
+    margin-top: 112px;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+.shake-check-in .project .action-bar a {
+    display: inline-block;
+    padding: 0 50px;
+    height: 50px;
+    margin-right: 90px;
+    background-color: #058b98;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+.shake-check-in .project .action-bar a:last-child {
+    margin-right: 0;
+}
+
+/* 签到详细页面样式 */
+.check-in-detail {
+
+}
+.check-in-detail .subject {
+    margin-top: 72px;
+    font-size: 32px;
+    color: #000;
+}
+.check-in-detail .info {
+    font-size: 28px;
+    line-height: 1;
+    color: #9b9b9b;
+    margin-top: 43px;
+    margin-bottom: 46px;
+}
+.check-in-detail .info span {
+    color: #8f95ab;
+}
+.check-in-detail .detail {
+    margin-top: 40px;
+    color: #6b6b6b;
+    font-size: 30px;
+    line-height: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

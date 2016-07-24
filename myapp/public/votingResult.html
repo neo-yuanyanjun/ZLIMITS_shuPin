@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=720,user-scalable=0">
+    <title>查看投票结果 - 北京叔蘋同学会</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/lib/echarts.js"></script>
+</head>
+<body>
+    <div class="container voting-result">
+        <div class="voting-subject">
+            毕业后意向调查
+        </div>
+        <div class="voting-info">
+            2014-05-10&#12288;<span>北京叔蘋同学会</span>
+        </div>
+        <div class="voting-icon"></div>
+        <div class="voting-question">
+            咨询一下大家是否开始测试
+        </div>
+        <div class="chart-panel" id="pie-chart" style="width: 100%;height:400px;">
+            
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script>
+        var myChart = echarts.init(document.getElementById('pie-chart'));
+        var option = {
+            // title : {
+            //     text: '大家是否开始测试',
+            //     subtext: '纯属虚构',
+            //     x:'center'
+            // },
+            legend: {
+                orient : 'vertical',
+                x : '0',
+                data:['想 45%','不想 35%','不知道 25%']
+            },
+            calculable : true,
+            series : [
+                {
+                    name:'大家是否开始测试',
+                    type:'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:[
+                        {value:45, name:'想 45%'},
+                        {value:35, name:'不想 35%'},
+                        {value:25, name:'不知道 25%'}
+                    ]
+                }
+            ],
+            color: ['#00abdf', '#fdc106', '#a6ce3a']
+        };
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

@@ -55,7 +55,8 @@ body {
 
 /* radio */
 .radio-wrapper {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: block;
     font-size: 28px;
     color: #5d5d5d;
 }
@@ -93,7 +94,8 @@ body {
 
 /* ckeckbox */
 .checkbox-wrapper {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: block;
     font-size: 28px;
     color: #5d5d5d;
 }

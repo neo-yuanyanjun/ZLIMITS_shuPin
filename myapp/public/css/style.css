@@ -11,7 +11,7 @@
 .user-info .form-wrapper .field .field-label {
     height: 100%;
     width: 190px;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     float: left;
     text-align: center;
     font-size: 30px;
@@ -21,18 +21,36 @@
 .user-info .form-wrapper .field .field-input {
     height: 100%;
     width: 444px;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     float: right;
+}
+.user-info .form-wrapper .field .field-input.calendar-input {
+    background: url(../img/icon_calendar.png) no-repeat 384px center #ecf9fe;
+}
+.user-info .form-wrapper .field .field-input.select-field {
+    background: url(../img/icon_down.png) no-repeat 390px center #ecf9fe;
 }
 .user-info .form-wrapper .field .field-input input, .user-info .form-wrapper .field .field-input select {
     border: none;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     width: 400px;
     height: 60px;
     font-size: 30px;
     line-height: 2;
     padding: 15px 20px;
 }
+
+.user-info .form-wrapper .field .field-input.select-field select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 360px;
+    padding: 15px 0;
+}
+
+.user-info .form-wrapper .field .field-input.calendar-input input {
+    width: 340px;
+} 
 .user-info .form-wrapper .field .field-input select {
     height: 90px;
     line-height: 90px;
@@ -64,7 +82,7 @@
 }
 .user-list .list-wrapper .user-item .left {
     width: 190px;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     height: 100%;
 }
 .user-list .list-wrapper .user-item .left .portrait-wrapper {
@@ -81,7 +99,7 @@
 .user-list .list-wrapper .user-item .right {
     width: 443px;
     height: 100%;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
 }
 .user-list .list-wrapper .user-item .right .name {
     margin: 28px 0 0 24px;
@@ -119,8 +137,12 @@
 }
 
 .recent-activities .activity-item .subject {
+    text-align: center;
+}
+.recent-activities .activity-item .subject span {
     position: relative;
-    width: 196px;
+    /*width: 196px;*/
+    padding: 0 20px;
     height: 58px;
     background-color: #addce1;
     font-size: 30px;
@@ -130,7 +152,7 @@
     vertical-align: top;
     margin-bottom: 30px;
 }
-.recent-activities .activity-item .subject:after {
+.recent-activities .activity-item .subject span:after {
     content: ' ';
     position: absolute;
     display: block;
@@ -151,7 +173,7 @@
     height: 76px;
     width: 210px;
     margin-right: 5px;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     line-height: 76px;
 }
 
@@ -193,11 +215,14 @@
     color: #058b98;
     line-height: 1;
 }
-.activity-detail .attend-wrapper .radio-wrapper {
+.activity-detail .attend-wrapper .lunch-wrapper {
     margin-top: 40px;
     font-size: 28px;
     color: #5d5d5d;
     line-height: 1.5;
+}
+.activity-detail .attend-wrapper .lunch-wrapper .radio-wrapper {
+    display: inline-block;
 }
 .activity-detail .btn-wrapper {
     margin-top: 34px;
@@ -269,7 +294,7 @@
     margin-right: 6px;
     margin-top: 6px;
     height: 100%;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     font-size: 26px;
     color: #5d5d5d;
     line-height: 90px;
@@ -315,7 +340,7 @@
     float: left;
     margin-right: 5px;
     height: 100%;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
 }
 .dues-list .custom-table .row .column.num {
     width: 110px;
@@ -367,7 +392,7 @@
     float: left;
     margin-right: 5px;
     height: 100%;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
 }
 .dues-pay .custom-table .row .column.first-column {
     width: 190px;
@@ -403,7 +428,7 @@
     padding: 27px 0;
     border-top: 5px solid #fff;
     border-right: 5px solid #fff;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     width: 175px;
 }
 .donation-list .table-wrapper tr .first {
@@ -447,7 +472,7 @@
     float: left;
     margin-right: 5px;
     height: 100%;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
 }
 .donation-pay .custom-table .row .column.first {
     width: 190px;
@@ -464,7 +489,7 @@
     line-height: 60px;
     padding: 15px 0;
     margin: 0;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     width: 100%;
 }
 .donation-pay .btn-wrapper {
@@ -536,7 +561,7 @@
     margin-top: 30px;
     font-size: 24px;
     color: #5d5d5d;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
 }
 
 /* 投票列表页面样式 */
@@ -571,7 +596,7 @@
 }
 .voting-list .voting-items .voting-item .action-bar {
     margin-top: 28px;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     font-size: 24px;
     height: 76px;
     line-height: 76px;
@@ -584,7 +609,7 @@
 .voting-list .voting-items .voting-item .action-bar .link {
     float: right;
     margin-right: 20px;
-    margin-top: 28px;
+    margin-top: 18px;
     height: 40px;
     line-height: 40px;
     color: #fff;
@@ -684,7 +709,7 @@
 }
 .questionnaire-list .questionnaire-items .questionnaire-item .action-bar {
     margin-top: 28px;
-    background-color: #f5fcff;
+    background-color: #ecf9fe;
     font-size: 24px;
     height: 76px;
     line-height: 76px;

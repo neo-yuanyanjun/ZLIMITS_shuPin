@@ -25,6 +25,7 @@
     float: right;
 }
 .user-info .form-wrapper .field .field-input.calendar-input {
+    position: relative;
     background: url(../img/icon_calendar.png) no-repeat 384px center #ecf9fe;
 }
 .user-info .form-wrapper .field .field-input.select-field {
@@ -36,7 +37,7 @@
     width: 400px;
     height: 60px;
     font-size: 30px;
-    line-height: 2;
+    /*line-height: 2;*/
     padding: 15px 20px;
 }
 
@@ -49,14 +50,29 @@
 }
 
 .user-info .form-wrapper .field .field-input.calendar-input input {
+    position: absolute;
+    z-index: 1;
     width: 340px;
-} 
+    /*visibility: hidden;*/
+    opacity: 0.01;
+}
 .user-info .form-wrapper .field .field-input select {
     height: 90px;
-    line-height: 90px;
+    /*line-height: 90px;*/
     margin-left: 20px;
     padding: 0;
     width: 400px;
+}
+.user-info .form-wrapper .field .field-input.calendar-input span.mock-date {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 340px;
+    /*border: 1px solid red;*/
+    line-height: 90px;
+    font-size: 30px;
+    padding-left: 20px;
 }
 .user-info .form-wrapper .btn-wrapper {
     text-align: center;

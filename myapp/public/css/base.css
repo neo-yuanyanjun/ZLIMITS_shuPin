@@ -134,6 +134,7 @@ body {
 
 /* button */
 .btn-wrapper {
+    padding-bottom: 20px;
     margin-top: 64px;
     text-align: center;
 }
@@ -144,4 +145,13 @@ body {
     font-size: 30px;
     color: #fff;
     border-radius: 6px;
+}
+
+.field-input.calendar-input input{
+    width: 404px !important;
+}
+
+.mock-date {
+    color: #000 !important;
+    text-decoration: none;
 }

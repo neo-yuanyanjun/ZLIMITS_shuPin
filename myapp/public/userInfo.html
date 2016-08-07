@@ -105,9 +105,8 @@
     <div class="footer"></div>
     <script>
         $('input[type="date"]').on('change', function () {
-            console.log(1);
             console.log(this.value);
-            $(this).siblings('.mock-date').html(this.value);
+            $(this).siblings('.mock-date').html(this.value.replace(/-/gi, '/'));
         });
     </script>
 </body>
